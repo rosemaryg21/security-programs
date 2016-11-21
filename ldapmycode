@@ -28,6 +28,7 @@ public class RetrieveGroupName {
 		String ldapHost = args[0];
 		String loginDN = args[1];
 		String password = args[2];
+		String searchBase = args[3];
 		String path = "C:/test/ssl.keystore";
 		LDAPSocketFactory ssf;
 		
